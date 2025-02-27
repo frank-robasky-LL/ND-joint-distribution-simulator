@@ -18,6 +18,10 @@ The wrapper then turns the output structure `samp` to table `sampT`.  The extern
 This code has been employed to produce up to 10M samples of 5-dimensional joint distributions using 100 bins across 4 of the dimensions and 50 bins for the fifth.  The primary constraint is the memory size of the N-dimensional probability distribution (100<sup>4</sup> * 50 = 37.2 GB for the aforementional case).  The user will need to trade off between the number of bins and number of dimensions to satisfy their own memory constraints.
 
 Creating 10M samples for the above case took approximately 20 minutes of wall time on an Intel Core i9-11950H processor (8 cores) running at a base clock speed of 2.60 GHz.  No attempt has yet been made to parallelize the code.
+## Citation
+Please use this DOI number reference, published on [Zenodo](https://zenodo.org), when citing the software:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14933474.svg)](https://doi.org/10.5281/zenodo.14933474)
 ## Disclaimer
 DISTRIBUTION STATEMENT A. Approved for public release. Distribution is unlimited.
  
